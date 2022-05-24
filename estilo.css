@@ -1,0 +1,61 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.custom-shape-divider-top-1653228938 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    /*line-height: 0;*/
+}
+
+.custom-shape-divider-top-1653228938 svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 67px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1653228938 .shape-fill {
+    fill: #4682B4;
+}
+
+.paises{
+    display: flex;
+}
+
+.conteudoGlobal{
+    width: 70%;
+    margin-left: 10px;
+    /*height: 200px;*/
+    /* border: 1px black solid; */
+}
+.conteudoFavoritos{
+    width: 70%;
+    margin-left: 10px;
+    height: 200px;
+    /*border: 1px black solid;*/
+}
+img{
+    width: 150px;
+    margin-right: 20px;
+}
+
+.conteudo{
+    display: flex;
+    margin: 20px;
+}
+.add:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px darkgreen;
+    transition: 0.4s;
+}
+.del:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 5px darkred;
+    transition: 0.4s;
+}
