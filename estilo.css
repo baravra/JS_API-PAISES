@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -51,11 +52,63 @@ img{
 }
 .add:hover{
     cursor: pointer;
-    box-shadow: 5px 5px 5px 5px darkgreen;
+    box-shadow: 5px 5px 5px 5px rgba(84, 222, 128, 0.664);
     transition: 0.4s;
 }
 .del:hover{
     cursor: pointer;
-    box-shadow: 5px 5px 5px 5px darkred;
+    box-shadow: 5px 5px 5px 5px rgba(139, 0, 0, 0.473);
     transition: 0.4s;
+}
+.cont{
+    margin-left: 10px;
+    /* border: 1px red solid */
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px gray;
+    transition: 0.4s;
+}
+button{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: white;
+}
+.all{
+    background-color: black;
+    color: white;
+}
+.Europe{
+    color: green;
+    font-weight: bold;
+}
+.Americas{
+    color: orange;
+    font-weight: bold;
+}
+.Asia{
+    color: red;
+    font-weight: bold;
+}
+.Africa{
+    color: blue;
+    font-weight: bold;
+}
+.Oceania{
+    color: brown;
+    font-weight: bold;
+}
+.Polar{
+    color: black;
+    font-weight: bold;
+}
+.procurar{
+    margin: 10px;
+}
+input{
+    border: 0 solid;
+    border-bottom: 1px black solid;
+    width: 60%;
+    padding: 7px;
 }
