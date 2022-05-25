@@ -17,6 +17,18 @@
             <div class="global" style="width: 50%">
                 <p style="padding-left: 10px; font-size: 20px;" id="paisesTotal">Países ()</p>
                 <p style="padding-left: 10px; font-size: 20px;" id="popTotal">População Total ()</p>
+                <div class="cont">
+                    <button onclick="mostrar('all')" class="all">ALL</button>
+                    <button onclick="mostrar('Europe')" class="Europe">EUROPA</button>
+                    <button onclick="mostrar('Americas')" class="Americas">AMERICA</button>
+                    <button onclick="mostrar('Asia')" class="Asia">ASIA</button>
+                    <button onclick="mostrar('Africa')" class="Africa">AFRICA</button>
+                    <button onclick="mostrar('Oceania')" class="Oceania">OCEANIA</button>
+                    <button onclick="mostrar('Polar')" class="Polar">POLAR</button>
+                </div>
+                <div class="procurar">
+                    <input type="text" onkeyup="busca()" placeholder="BUSCAR" id="buscar">
+                </div>
                 <div class="conteudoGlobal">
 
                 </div>
